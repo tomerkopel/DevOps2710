@@ -9,5 +9,10 @@ pipeline {
                 sh 'python3 1.py'
             }
         }
+        stage('World') {
+            steps {
+                sh 'python3 2.py'
+            }
+        }
     }
 }
